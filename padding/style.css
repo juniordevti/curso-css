@@ -1,0 +1,9 @@
+div{
+    font-size: 20px;
+    background-color: aqua;
+    border: 20px solid red;
+    width: 500px;
+    padding: 20px;
+    box-sizing: border-box;
+    /*1-left 2-right 3-bottom 4-top*/
+}

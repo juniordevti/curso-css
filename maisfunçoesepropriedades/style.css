@@ -1,0 +1,18 @@
+body {
+  /* overflow: hidden; */
+  /* overflow: auto; */
+  /* overflow: scroll; */
+  overflow: visible;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+  font-size: 24px;
+}
+
+/* relativa, absoluta a ideia é que essa função escolha o valor minimo entre elas. */
+
+p {
+  visibility: hidden;
+}

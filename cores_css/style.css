@@ -1,0 +1,28 @@
+
+
+/*pelo nome*/
+#p1{
+    color: blue;
+
+}
+/*hexadecimal*/
+#p2{
+    color: #9d04cc;
+}
+/*rgb*/
+#p3{
+    color: #3651EB;
+
+}
+/*rgba*/
+#p4{
+    color: rgba(128, 23, 226, 1);
+}
+/*hwb*/
+#p5{
+    color: hwb();
+}
+/*hsl*/
+#p6{
+    color: hsl();
+}

@@ -1,0 +1,13 @@
+.divprincipal{
+    color: red;
+}
+
+#divFilha{
+    color: blue;
+}
+
+#divcomforma{
+    border: 2px solid black;;
+    width: 100px;
+    margin: auto;
+}

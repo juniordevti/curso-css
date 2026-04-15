@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+}
+.div{
+    font-size: 40px ;
+    width: 150px;
+    height: 150px;
+}
+
+#div1{
+    background-color: aqua;
+    border: 10px solid black;
+    margin-right: auto;
+}
+#div2{
+    background-color: bisque;
+    border: 10px solid red;
+    margin-top: 20px;
+}

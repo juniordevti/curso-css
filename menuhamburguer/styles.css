@@ -1,0 +1,63 @@
+
+header {
+    background-color: black;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 26px;
+    margin-left: 5%;
+    color: white;
+}
+
+.menu{
+    color: white;
+}
+
+header div {
+    font-size: 26px;
+    cursor: pointer;
+    margin-right: 5%;
+}
+
+header nav {
+    display: none;
+    position: absolute;
+    top: 100px;
+    background-color: black;
+    width: 100%;
+    flex-direction: column; 
+    align-items: center;
+    font-size: 24px;
+    gap: 15px;
+    padding: 20px 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.322);
+    transition: .2s;
+    cursor: pointer;
+}
+
+header nav p:hover {
+    color: rgb(228, 228, 228);
+}
+
+@media (min-width: 600px) {
+    header div {
+        display: none;
+    }
+
+    header nav {
+        display: flex;
+        position: unset;   
+        flex-direction: row; 
+        align-items: center;
+        justify-content: end;
+        font-size: 18px;
+        gap: 15px;
+        padding: 20px 0px;
+        border-top: none;
+        margin-right: 5%;
+    }
+}

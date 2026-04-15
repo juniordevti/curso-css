@@ -1,0 +1,15 @@
+p{
+    font-size: 20px;
+    background-color: antiquewhite;
+    padding: 4%;
+}
+
+
+
+
+@media (min-width: 450px){
+    p{
+        background-color: azure;
+        font-size: 24px;
+    }
+}

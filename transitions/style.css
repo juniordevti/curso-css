@@ -1,0 +1,42 @@
+
+
+input{
+    padding: 20px;
+    border: 8px solid black;
+    outline: none;
+
+    transition: 2s;
+}
+
+input:focus{
+    border: 8px solid blue;
+    background-color:antiquewhite ;
+}
+
+
+
+
+
+
+
+
+
+button{
+    width: 150px;
+    font-size: 25px;
+    padding: 30px;
+    
+    transition: width 2s, background-color 5s ease-in-out 1s;
+    /* transition, propriety, duracion, function, delay */
+    /* transition-property: width;
+    transition-duration: 2s; */
+    /* transition-delay: 1s; */
+    /* transition-timing-function:cubic-bezier(.16,.63,.87,.63);
+    border-color: rgb(26, 223, 223); */
+
+}
+
+button:hover{
+    width: 300px;
+    background-color: aqua;
+}

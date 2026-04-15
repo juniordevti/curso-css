@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+/* vídeo de fundo */
+#bg-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* efeito glassmorphism */
+/* .box {
+  width: 50%;
+  height: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid red;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(6px);
+} */
+
+div{
+    color: aliceblue;
+    width: 50%;
+    height: 300px;
+    border: 1px solid red;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: transparent;
+    backdrop-filter: drop-shadow(4px 4px 10px blue);
+
+
+}

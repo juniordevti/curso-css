@@ -1,0 +1,38 @@
+/* p{
+    font-size: 23px;
+}
+
+esse psseudo ele autera somente a primeira letra da tag (::first-letter) first-line: ele estiliza a primeira linha do paragrafo
+p::before{
+    content: "🐱‍👓";
+}
+
+p::after{
+    content: "🐱‍👤";
+}
+p::first-letter{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+p::selection{
+    background-color: aqua;
+
+} */
+
+label{
+    font-size: 50px;
+}
+
+input{
+    padding: 20px;
+    font-size: 24px;
+}
+
+input::placeholder{
+    font-weight: bold;
+    font-size: 30px;
+    color: blue;
+}

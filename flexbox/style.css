@@ -1,0 +1,27 @@
+.container{
+
+    display: block;
+    font-size: 30px;
+    border: 10px solid red;
+    height: 800px;
+    width: 500px;
+    gap: 10px;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: column wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.item{
+    border: 10px solid;
+    height: 80px;
+    width: 150px;
+}
+
+
+
+
+    /* flex-shrink: 1; */
+    /* align-self: center; */
+    /* order: 1; */

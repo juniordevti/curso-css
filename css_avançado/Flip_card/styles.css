@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.card {
+    margin: 50px auto;
+    width: 300px;
+    height: 300px;
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.flipCard {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: .8s;
+
+}
+
+.card:hover .flipCard {
+    transform: rotateY(180deg);
+}
+
+.flipFlont, .flipBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    box-shadow: 0px 0px 10px rgba(119, 214, 221, 0.795);
+    overflow: hidden;
+    backface-visibility:hidden;
+
+}
+
+.flipFlont {
+    background: url(https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg) no-repeat center/cover;
+    color: white;
+}
+
+.flipFlont p:first-child {
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.flipFlont p:last-child {
+    padding-top: 30px;
+}
+
+.flipBack {
+    background: url(https://images.pexels.com/photos/1624360/pexels-photo-1624360.jpeg) no-repeat center/cover;
+    color: white;
+    transform: rotateY(180deg);
+
+}
+
+.flipBack p:first-child {
+    font-size: 28px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.flipBack p:last-child {
+    padding-top: 30px;
+}

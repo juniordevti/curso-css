@@ -1,0 +1,12 @@
+p{
+    color: blue;
+}
+
+#titulo{
+    color: blueviolet;
+}
+
+.texto{
+    font-weight: bold; /*bold: negrito*/
+    color: rgb(228, 5, 53);
+}

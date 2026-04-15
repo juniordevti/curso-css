@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+button{
+    border: none;
+    background-color: blue;
+    padding: 30px;
+    width: 200px;
+    color: white;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: .2s;
+    box-shadow: 0px 0px 10px rgba(4, 216, 223, 0.911);
+}
+
+button:hover {
+    box-shadow: 0px 0px 10px rgba(4, 216, 223, 0.911);
+    animation: animaçãoBotão 1s infinite alternate;
+}
+
+@keyframes animaçãoBotão {
+    0% {
+        scale: 1.0;
+    }
+
+    100% {
+        scale: 1.1;
+    }
+}

@@ -1,0 +1,96 @@
+button{
+    padding: 30px;
+
+}
+
+input{
+    padding: 10px;
+}
+
+div{
+    font-size: 22px;
+}
+
+/* pseudo-classe */
+
+button:hover{
+    background-color: rgb(187, 2, 224);
+}
+
+input:focus{
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+input:disabled {
+    border: 2px solid red;
+}
+
+input:enabled{
+    border: 2px solid blue;
+}
+
+
+
+
+
+
+
+
+
+/* input:checked {
+    box-shadow: 0px 0px 10px black;
+} */
+
+/* input:required{
+
+    border: 2px solid red;
+
+}
+
+input:optional{
+    border: 20px rgb(209, 2, 54);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nth-child = funciona como um caminho de estilização especifico
+
+div b:nth-child(2){
+    font-size: 33px;
+    background-color: aqua;
+
+}
+
+para que o caminho funcione tem que selecionar o destino da div exemplo: div b:of-type, e em seguida parenteses e selecione a posição da div que voce quer alterar=(1){} ele funciona de qualquer tipo de tag 
+div b:nth-of-type(1){
+    background-color: blueviolet;
+
+}
+
+:first-child significa o primeiro filho
+div p:first-child{
+    background-color: blue;
+
+}
+
+last-child=esse significa o ultimo filho */
+/* div p:last-child{
+    background-color: aquamarine;
+} */
